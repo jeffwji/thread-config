@@ -7,7 +7,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.11</junit.version>
 		<spring.boot.version>1.2.5.RELEASE</spring.boot.version>
-	    <htche.utils.version>2.0.1</htche.utils.version>
 	</properties>
 	
 	<scm>
