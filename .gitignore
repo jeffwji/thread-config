@@ -1,3 +1,5 @@
+/.idea
+/thread-config.iml
 /target/
 /.settings
 .project
