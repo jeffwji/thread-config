@@ -1,4 +1,4 @@
-package com.wang.thread.configure;
+package net.tinybrick.thread.configure;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

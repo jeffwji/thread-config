@@ -7,7 +7,7 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.wang.thread.configure.ThreadConfig;
+import net.tinybrick.thread.configure.ThreadConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = { ThreadConfig.class })
