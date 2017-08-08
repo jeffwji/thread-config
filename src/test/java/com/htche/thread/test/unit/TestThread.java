@@ -3,14 +3,14 @@ package com.htche.thread.test.unit;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import net.tinybrick.thread.configure.ThreadConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = { ThreadConfig.class })
+@SpringBootTest(classes = { ThreadConfig.class })
 public class TestThread {
 	@Autowired AsyncTaskExecutor asyncTaskExecutor;
 
